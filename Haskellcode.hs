@@ -46,3 +46,6 @@ points x1 x2
 
 pointsWithOffset :: Double -> Double -> Double -> [Double]
 pointsWithOffset x1 x2 offset = map (+offset) (points x1 x2)
+
+
+--End
